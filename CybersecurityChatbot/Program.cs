@@ -9,7 +9,7 @@ namespace CybersecurityChatbot
             // Enable UTF-8 so emojis and box-drawing characters display correctly
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            // Set up terminal window size & title
+            // Set up terminal window size and title
             Console.Title = "Cybersecurity Awareness Assistant";
 
             // Render Header Banner
