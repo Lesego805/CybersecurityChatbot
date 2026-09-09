@@ -1,4 +1,3 @@
-
 # 🛡️ Cybersecurity Awareness Assistant (Chatbot)
 
 An interactive, C#-based console application designed to educate users on essential cybersecurity concepts, online safety practices, and threat mitigation strategies. Built with .NET 8.0, this tool features a clean ASCII interface, smooth text-typing animations, audio greeting capabilities, and robust input validation.
@@ -17,10 +16,10 @@ The **Cybersecurity Awareness Assistant** helps users navigate common digital sa
 ## 🚀 Features
 
 * **Interactive Natural Chat Engine**: Uses keyword parsing and custom string matching to address user inquiries dynamically.
-* **ASCII Console UI (`UIFormatter.cs`)**: Styled headers, themed speaker indicators (`[ASSISTANT]` / `[YOU]`), custom color coding, and character-by-character typing animations.
+* **ASCII Console UI (`UIFormatter.cs`)**: Styled headers, themed speaker indicators, custom color coding, and character-by-character typing animations.
 * **Integrated Audio Player (`AudioPlayer.cs`)**: Utilizes `System.Media.SoundPlayer` to render an audio greeting upon application startup.
 * **Input Validation & Error Handling**: Gracefully handles blank inputs, invalid commands, and unexpected user entries without crashing.
-* **Cross-Platform UTF-8 Compatibility**: Configured to handle standard text rendering cleanly across command terminals.
+* **UTF-8 Compatibility**: Configured to handle standard text rendering cleanly across command terminals.
 
 ---
 
