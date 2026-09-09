@@ -12,7 +12,7 @@ The **Cybersecurity Awareness Assistant** delivers a personalized and engaging u
 ## 📸 Application Screenshots
 
 ### Main Interface & ASCII Banner
-![Main Interface & ASCII Banner]("C:\Users\Lsego\Pictures\Screenshots\Screenshot 2026-09-09 214644.png")
+![Main Interface & ASCII Banner](Screenshot1.png)
 *Figure 1: Main Menu with custom ASCII header and user greeting.*
 
 ### Phishing Quiz & Educational Module
