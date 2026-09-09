@@ -1,53 +1,50 @@
-# 🛡️ Cybersecurity Awareness Assistant (Chatbot)
+# 🛡️ Cybersecurity Awareness Assistant
 
-An interactive, C#-based console application designed to educate users on essential cybersecurity concepts, online safety practices, and threat mitigation strategies. Built with .NET 8.0, this tool features a clean ASCII interface, smooth text-typing animations, audio greeting capabilities, and robust input validation.
+An interactive C# console application designed to educate users on essential cybersecurity topics, including phishing awareness, password best practices, and safe browsing habits. Built using .NET 8.0 in Microsoft Visual Studio.
 
 ---
 
 ## 📌 Project Overview
-
-The **Cybersecurity Awareness Assistant** helps users navigate common digital safety challenges by providing instant, reliable information on core topics:
-* **Phishing & Scam Identification**: Recognizing suspicious links, deceptive emails, and social engineering tactics.
-* **Password Management**: Guidance on constructing strong passphrases, avoiding password reuse, and implementing Multi-Factor Authentication (MFA).
-* **Safe Browsing Practices**: Verifying SSL/TLS website certificates (`https://`), avoiding malicious attachments, and dodging web pop-ups.
+The **Cybersecurity Awareness Assistant** delivers a personalized and engaging user interface complete with audio greetings, ASCII art headers, and interactive topic modules. It serves as an educational tool to help users recognize online security threats and adopt safe digital practices.
 
 ---
 
-## 🚀 Features
+## 📸 Application Screenshots
 
-* **Interactive Natural Chat Engine**: Uses keyword parsing and custom string matching to address user inquiries dynamically.
-* **ASCII Console UI (`UIFormatter.cs`)**: Styled headers, themed speaker indicators, custom color coding, and character-by-character typing animations.
-* **Integrated Audio Player (`AudioPlayer.cs`)**: Utilizes `System.Media.SoundPlayer` to render an audio greeting upon application startup.
-* **Input Validation & Error Handling**: Gracefully handles blank inputs, invalid commands, and unexpected user entries without crashing.
-* **UTF-8 Compatibility**: Configured to handle standard text rendering cleanly across command terminals.
+### Main Interface & ASCII Banner
+![Main Interface & ASCII Banner](screenshots/main-interface.png)
+*Figure 1: Main Menu with custom ASCII header and user greeting.*
 
----
-
-## 🛠️ System Architecture
-
-The application follows a modular, single-responsibility C# class structure:
-
-| File | Purpose |
-| :--- | :--- |
-| `Program.cs` | Main application entry point; initializes console configurations, audio execution, and the main loop. |
-| `ChatEngine.cs` | Core logic handling session initialization, user input parsing, topic processing, and exit signals. |
-| `UIFormatter.cs` | Visual presentation layer responsible for printing ASCII banners, typing animations, and colored badges. |
-| `AudioPlayer.cs` | Sound utility handling `System.Media.SoundPlayer` file checks, path validation, and audio execution. |
+### Phishing Quiz & Educational Module
+![Phishing Module](screenshots/phishing-module.png)
+*Figure 2: Interactive cybersecurity learning module with input validation.*
 
 ---
 
-## 📋 Prerequisites & Requirements
-
-* **Operating System**: Windows 10 / 11 (required for native `System.Media.SoundPlayer` audio execution).
-* **SDK / Framework**: [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or higher.
-* **IDE**: Microsoft Visual Studio 2022 (with *.NET desktop development* workload installed) or Visual Studio Code.
-* **Dependencies**: `System.Windows.Extensions` package for sound playback support.
+## 🚀 Key Features
+* **🎙️ Audio Greeting:** Plays an introductory `.wav` audio greeting upon application launch (`AudioPlayer.cs`).
+* **🎨 Custom Terminal UI:** Custom-styled terminal card layouts and ASCII banners (`UIFormatter.cs`).
+* **👤 User Personalization:** Captures user name and tracks interaction history.
+* **📚 Educational Modules:** Detailed guidance and interactive quizzes on:
+  * Phishing Prevention & Email Safety
+  * Strong Password Management
+  * Safe Web Browsing & Online Safety
+* **🛡️ Robust Input Validation:** Prevents crashes and handles invalid user selections seamlessly.
 
 ---
 
-## 📦 Installation & Setup
+## 🛠️ Technology Stack
+* **Language:** C# (.NET 8.0)
+* **IDE:** Microsoft Visual Studio 2022
+* **Audio Engine:** `System.Media.SoundPlayer`
+* **Version Control:** Git & GitHub
+* **CI/CD Pipeline:** GitHub Actions
 
-1. **Clone the Repository**:
+---
+
+## ⚙️ Installation & Running Locally
+
+1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Lesego805/CybersecurityChatbot.git](https://github.com/Lesego805/CybersecurityChatbot.git)
-   cd CybersecurityChatbot
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/Cybersecurity-Awareness-Assistant.git](https://github.com/YOUR_GITHUB_USERNAME/Cybersecurity-Awareness-Assistant.git)
+   cd Cybersecurity-Awareness-Assistant
